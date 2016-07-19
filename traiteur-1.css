@@ -1,6 +1,6 @@
 
 .navbar-header{
-	padding-left: 350px;
+	padding-left: 380px;
 }
 .navbar-brand a {
 	padding-left:0px;
@@ -8,6 +8,10 @@
 
 #MenuNavbar{
 	
+}
+.nav-middle {
+padding-left: 0px;
+
 }
 .img-container {
 	position: relative;
