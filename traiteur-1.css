@@ -1,3 +1,18 @@
+
+.navbar-header{
+	padding-left: 380px;
+}
+.navbar-brand a {
+	padding-left:0px;
+}
+
+#MenuNavbar{
+	
+}
+.nav-middle {
+padding-left: 0px;
+
+}
 .img-container {
 	position: relative;
 }
@@ -14,15 +29,16 @@
 }
 
 .img-left-background {
-	background-image: url(img/traiteur-1.jpeg);
+
+	background-image: url(img/img3.jpg);
 }
 
 .img-center-background {
-	background-image: url(img/accueil4.jpg);
+	background-image: url(img/carous5.jpg);
 }
 
 .img-right-background {
-	background-image: url(img/img-1.jpeg);
+	background-image: url(img/mari4.jpg);
 }
 
 .img-foreground {
@@ -33,14 +49,24 @@
 }
 
 .entre {
+	margin-top: 500px;
     width: 80%;
     height: 70px;
-    background-color: rgba(0,0,0,0.65);
+    background-color: black;
     display: flex;
     align-items: center;
     justify-content: center;
     font-size: 30px;
-    font-family: monospace;
+    font-family: 'Philosopher', sans-serif;
+    border-top-right-radius: 50px;
+	border-bottom-left-radius : 50px;
+}
+.entre:hover a{
+	opacity:0.6;
+  	color:green;
+  	text-decoration: none;
+  	text-transform: uppercase;
+
 }
 
 /*
@@ -49,3 +75,5 @@
     align-items: center;
     justify-content: center;
 }*/
+
+/*rgba(0,0,0,0.65);*/
