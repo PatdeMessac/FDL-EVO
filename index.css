@@ -3,31 +3,54 @@
   margin-top: 110px;
 }
 
+.entre {/*titre ... 3 images haut de page*/
+    width: 80%;
+    height: 70px;
+    /*background-image: url(img/img2.jpg);*/
+   background-color: orange; 
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    opacity: 0.8;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    font-family: 'Roboto';
+    font-style: italic;
+    text-shadow : 2px 2px 2px white;
+    color : black;
+}
 
 .bg-default {
-	padding: 100px 0;
+  padding: 100px 0;
 }
 
 .mid-text {
-	margin: auto;
-	float: none;
+  margin: auto;
+  float: none;
 }
 
-/*arrière plan Nos services*/
+/*arrière plan section Nos services*/
 .bg-primary {  
-	padding: 150px 0;
-	
-  background-image: url(img/carous.jpg); ;
+  padding: 150px 0;
+background-image: url(img/carous2.jpg);
+  
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: center;
- background-color: #A47CFE; /*autour image arr plan*/
+ /*background-color: #CFB741;*/ /*autour image arr plan*/
+opacity : 0.9;
+  background-image: url(img/contact-bg.jpg); 
 }
 .bg-primary p{/*paragraphe description "Fedala Deco traiteur" Plus parag "Nos Services"*/
   margin-top: 50px;
   font-family: 'Roboto';
   color :black;
-  background-color: pink;
+  background-color: orange;
+border-top-right-radius: 15px;
+border-bottom-left-radius: 15px;
 }
 
 
@@ -39,28 +62,34 @@
 
 }
 
-.mid-text h1 {/*?*/
+.mid-text h1 {/*"Fedala Deco Traiteur" position centrale*/
   padding: 0 0 10px 0;
   font-size: 60px;
 font-family: 'Great Vibes';
-color : blue;
-text-shadow : 2px 2px 2px fuchsia;
-background-color: #A47CFE;
+color : black;
+text-shadow : 2px 2px 2px white;
+background-color: orange;
+opacity: 0.8;
+border-top-right-radius: 25px;
+border-bottom-left-radius: 25px;
 }
 
 .mid-text {
   width : 500px;
-  border-radius: 15px; 
+   
 }
 
-/*"cliquez sur une image ..."*/
+/*"Cliquez sur une image ..."*/
 .bg-primary h2 {
-  padding: 30px 0 30px 0;
+  padding: 30px 0 15px 0;
   font-weight: 700;
   font-family: 'Great Vibes', cursive;
   color : black;
-  background-color: #A47CFE;
-  font-size: 25px;
+ background-image: url(img/accueil4.jpg);
+  opacity : 0.7;
+  font-size: 28px;
+  border-top-right-radius: 25px;
+  border-bottom-left-radius: 25px;
 }
 
 h2 {/*?*/
@@ -70,20 +99,22 @@ h2 {/*?*/
 }
 
 h3 {/*titre "Nos Services"*/
-  font-size: 70px;
-  width: 550px;
-font-family: 'Roboto', italic;
+  font-size: 60px;
+  font-weight: 500;
+  width: 450px;
+  margin-left: 50px;
+font-family: 'Great Vibes';
 color : black;
-background-color: #A47CFE;
-  font-style: italic;
+  /*font-style: italic;*/
   text-shadow: 2px 2px 4px white;
 }
 
 .well-h3 {/*div "Nos Services"*/
  
-  /*background-image: url(img/contact-bg.jpg);*/
+  background-image: url(img/accueil4.jpg);
   background-attachment: fixed;
-  background-color: #A47CFE;
+  /*background-color: orange;#A47CFE;*/
+  opacity : 0.9;
   padding: 15px 0;
   text-align: center;
   border-top-right-radius: 15px;
@@ -95,7 +126,12 @@ p {/*paragraphes sous 3-photos et sous services*/
   font-size: 25px;
   color: black;
   font-style: italic;
-  background-color: #A47CFE;
+  /*background-color: orange;#A47CFE;*/
+  background-image: url(img/accueil4.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity : 0.7;
 }
 
 .bg-default h1 {/*?*/
@@ -131,9 +167,9 @@ border-top-right-radius: 15px;
   height: 445px;
   padding-right: 15px;
   padding-top: 15px;
- background-color: #A47CFE;
+ background-color: orange;#A47CFE;
   margin-top: -55px;
-  
+  border-top-right-radius: 25px;
   border-bottom-left-radius: 25px;
 }
 
@@ -171,7 +207,7 @@ border-top-right-radius: 15px;
   position: absolute;
   text-align: center;
   overflow: hidden;
-  opacity: 0;
+  opacity: 0.5;
   padding-top: 75px;
   font-size: 45px;
 }
@@ -237,22 +273,6 @@ border-top-right-radius: 15px;
   justify-content: center;
 }
 
-.entre {/* 3 images haut de page*/
-    width: 80%;
-    height: 70px;
-    background-color: pink;rgba(0,0,0,0.65)
-    opacity : 0.65;
-    border-top-right-radius: 15px;
-    border-bottom-left-radius: 15px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 30px;
-    font-family: 'Roboto', italic;
-    font-style: italic;
-    text-shadow : 2px 2px 2px fuchsia;
-    color : blue;
-}
 
 /*
 .centrage {
