@@ -69,19 +69,18 @@ h2 {/*?*/
   font-family: 'Great Vibes', cursive;
 }
 
-h3 {/*Nos Services*/
+h3 {/*titre "Nos Services"*/
   font-size: 70px;
   width: 550px;
-font-family: 'Great Vibes', cursive;
+font-family: 'Roboto', italic;
 color : black;
 background-color: #A47CFE;
+  font-style: italic;
+  text-shadow: 2px 2px 4px white;
 }
 
-.well-h3 {/*titre "Nos Services"*/
-  font-family: "Roboto";
-  font-style: italic;
-  /*color : grey;*/
-  text-shadow: 2px 2px 4px white;
+.well-h3 {/*div "Nos Services"*/
+ 
   /*background-image: url(img/contact-bg.jpg);*/
   background-attachment: fixed;
   background-color: #A47CFE;
@@ -91,7 +90,7 @@ background-color: #A47CFE;
 border-bottom-left-radius: 15px;
 }
 
-p {/*paragraphes sous 3-photos et sou services*/
+p {/*paragraphes sous 3-photos et sous services*/
   font-family: "Roboto";
   font-size: 25px;
   color: black;
@@ -99,7 +98,7 @@ p {/*paragraphes sous 3-photos et sou services*/
   background-color: #A47CFE;
 }
 
-.bg-default h1 {
+.bg-default h1 {/*?*/
   color : red;
   padding-top: 55px;
 }
@@ -110,15 +109,21 @@ p {/*paragraphes sous 3-photos et sou services*/
   justify-content: center;
   flex-wrap: wrap;
   width: 500px;
+
 }
 
+.about p {
+border-top-right-radius: 15px;  
+}
 .pic {
+
   width: 250px;
   height: 200px;
 }
 
 .pad {
   padding: 0 50px;
+
 }
 /*bloc image à droite de "Nos Services"*/
 .bloc-img {
@@ -153,6 +158,12 @@ p {/*paragraphes sous 3-photos et sou services*/
   opacity: 1;
 }
 
+.title-hover{
+  color : black;
+  text-shadow: 2px 2px 4px white;
+}
+
+
 .overlay {/*?*/
   width: 250px;
   height: 200px;
@@ -171,7 +182,7 @@ p {/*paragraphes sous 3-photos et sou services*/
   margin: auto;
   text-align: center;
   color: black;
-  font-size: 50px;
+  font-size: 30px;
   /*font-weight: bold;*/
 }
 
