@@ -44,3 +44,8 @@ body {
 .color-white {
 	color: #FFF
 }
+
+#contact{
+	padding-left: 30px;
+	padding-right: 30px;
+}
