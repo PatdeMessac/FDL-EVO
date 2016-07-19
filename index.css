@@ -55,7 +55,7 @@ border-bottom-left-radius: 15px;
 
 
 .parallax-window {
-  height: 450px;
+  height: 850px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -69,6 +69,14 @@ font-family: 'Great Vibes';
 color : black;
 text-shadow : 2px 2px 2px white;
 background-color: orange;
+
+
+background-image: url(img/carous.jpg);
+background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+
+
 opacity: 0.8;
 border-top-right-radius: 25px;
 border-bottom-left-radius: 25px;
@@ -79,7 +87,7 @@ border-bottom-left-radius: 25px;
    
 }
 
-/*"Cliquez sur une image ..."*/
+/*text : "Cliquez sur une image ..."*/
 .bg-primary h2 {
   padding: 30px 0 15px 0;
   font-weight: 700;
@@ -94,8 +102,7 @@ border-bottom-left-radius: 25px;
 
 h2 {/*?*/
   padding: 0 0 30px 0;
-  color: lime;
-  font-family: 'Great Vibes', cursive;
+ 
 }
 
 h3 {/*titre "Nos Services"*/
@@ -167,8 +174,13 @@ border-top-right-radius: 15px;
   height: 445px;
   padding-right: 15px;
   padding-top: 15px;
- background-color: orange;#A47CFE;
-  margin-top: -55px;
+ /*background-color: orange;#A47CFE;*/
+ background-image:url(img/header1.jpg);
+background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+background-size: cover;
+  /*margin-top: -55px;*/
   border-top-right-radius: 25px;
   border-bottom-left-radius: 25px;
 }
