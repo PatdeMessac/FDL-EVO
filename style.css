@@ -8,9 +8,9 @@ body {
 	margin: auto;
 }
 
-* {
-	font-family: 'Philosopher', sans-serif;
-}
+*/* {
+	font-family: 'Great Vibes', cursive;
+}*/
 
 .fullwidth {
 	width: 100%;
@@ -48,4 +48,5 @@ body {
 #contact{
 	padding-left: 30px;
 	padding-right: 30px;
+	background-color: #8A81AF;
 }
