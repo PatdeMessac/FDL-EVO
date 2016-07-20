@@ -53,11 +53,11 @@ p {/*paragraphes sous 3-photos et sous services*/
 /*arrière plan section Nos services*/
 .bg-primary {  
   padding: 150px 0;
-background-image: url(img/carous2.jpg);
+/*background-image: url(img/carous2.jpg);
   
   background-attachment: fixed;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: center;*/
  /*background-color: #CFB741;*/ /*autour image arr plan*/
 opacity : 0.9;
   background-image: url(img/contact-bg.jpg); 
@@ -69,6 +69,7 @@ opacity : 0.9;
   background-color: #FFF5E1;orange;
 border-top-right-radius: 15px;
 border-bottom-left-radius: 15px;
+padding : 25px;
 }
 
 
@@ -86,7 +87,7 @@ border-bottom-left-radius: 15px;
 }
 
 .mid-text h1 {/*"Fedala Deco Traiteur" position centrale*/
-  padding: 0 0 10px 0;
+  padding: 15px 0 10px 0;
   font-size: 60px;
 font-family: 'Great Vibes';
 color : black;
@@ -110,8 +111,9 @@ border-bottom-left-radius: 25px;
 
 /*text : "l'essentiel pour un evenement"*/
 .bg-primary h2 {
-  padding: 30px 0 15px 0;
-  font-weight: 700;
+  padding: 10px;
+  text-align: center;
+  font-weight: 550;
   font-family: 'Great Vibes', cursive;
   color : black;
   background-color: #FFF5E1;orange;
@@ -123,10 +125,7 @@ border-bottom-left-radius: 25px;
   border-bottom-left-radius: 25px;
 }
 
-h2 {/*?*/
-  padding: 0 0 30px 0;
- 
-}
+
 
 h3 {/*titre "Nos Services"*/
   font-size: 60px;
@@ -136,7 +135,8 @@ h3 {/*titre "Nos Services"*/
 font-family: 'Great Vibes';
 color : black;
   /*font-style: italic;*/
-  text-shadow: 2px 2px 4px white;
+  text-shadow: 2px 2px 4px grey;
+  padding: 15px 0 0 0 ;
 }
 
 .well-h3 {/*div "Nos Services"*/
@@ -145,7 +145,7 @@ color : black;
   background-attachment: fixed;
   background-color: #FFF5E1;#C9A500;orange;#A47CFE;
   opacity : 0.9;
-  padding: 15px 0;
+  
   text-align: center;
   border-top-right-radius: 15px;
 border-bottom-left-radius: 15px;
@@ -169,6 +169,7 @@ border-bottom-left-radius: 15px;
 .about p {
 border-top-right-radius: 15px;  
 }
+
 .pic {
 
   width: 250px;
@@ -279,7 +280,7 @@ background-size: cover;
 }
 
 .img-left-background {
-  background-image: url(img/header-location.jpg);
+  background-image: url(img/carous.jpg);
 }
 
 .img-center-background {
@@ -287,7 +288,7 @@ background-size: cover;
 }
 
 .img-right-background {
-  background-image: url(img/contact-bg.jpg);
+  background-image: url(img/header-location.jpg);
 }
 
 .img-foreground {
