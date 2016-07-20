@@ -48,19 +48,6 @@ padding-right: 45px;
 }
 
 
-/*.navbar-default .navbar-header .navbar-brand.scroll {
-	font-size: 50px;
-}
-*/
-
-/*
-.navbar-default .nav li a {
-	font-size: 29px;
-	font-weight: 500;
-	
-	color : blue;
-	
-*/
 .nav-middle {
 	/*float : left;*/
 opacity: 1;
@@ -80,3 +67,16 @@ font-size: 15px;
 	color : blue;
 }
 
+/*.navbar-default .navbar-header .navbar-brand.scroll {
+	font-size: 50px;
+}
+*/
+
+/*
+.navbar-default .nav li a {
+	font-size: 29px;
+	font-weight: 500;
+	
+	color : blue;
+	
+*/

@@ -10,7 +10,7 @@
 
 
 .entre {/*titre ... 3 images haut de page*/
-    width: 80%;
+    width: 60%;
     height: 70px;
     background-image: url(img/restaureF3.jpg);
     /*background-color: orange;*/ 
@@ -29,6 +29,13 @@
     text-shadow : 2px 2px 2px white;
     color : black;
 }
+
+.entre a:hover{
+  cursor : s-resize;
+  color: white;
+  text-shadow: 2px 2px 2px black;
+}
+
 p {/*paragraphes sous 3-photos et sous services*/
   font-family: "Roboto";
   font-size: 25px;
