@@ -1,4 +1,31 @@
-#seconnecter {
+
+.container{
+	width: 100%;
+	padding: auto;
 	background-color: #151E25;
-	height: 100%;
+}
+
+.blockdeux{
+	color: white;
+	height: 500px;
+	margin-top: 140px;
+	font-size: 18px;
+}
+h1{
+	font-size: 30px;
+	padding-bottom: 30px;
+}
+.comptFedeala{
+	margin-left: 510px;
+	padding-top: 20px;
+	border: 1px solid;
+	width: 250px;
+	height: 100px;
+	position: center;
+}
+.comptFedeala:hover a{
+	opacity:0.6;
+  	color:green;
+  	text-decoration: none;
+  	text-transform: uppercase;
 }
