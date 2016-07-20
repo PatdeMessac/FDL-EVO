@@ -2,8 +2,8 @@
 
 .navbar-default,
 .navbar-default.scroll {
-	/*background-color: orange;/*rgba(138, 129, 175, 0.7)*/
-background-image: url(img/restaureF3.jpg);
+	background-color: rgba(138, 129, 175, 0.7);
+/*background-image: url(img/restaureF3.jpg);*/
 opacity: 0.90;
 }
 
@@ -41,7 +41,7 @@ opacity: 0.90;
 	font-family: 'Great Vibes';
 	
 	font-size: 35px;
-	color : black;
+	color : red;
 	letter-spacing: 2px;
 	line-height: 35px;
 padding-right: 45px;
