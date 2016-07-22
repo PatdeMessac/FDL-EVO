@@ -1,17 +1,5 @@
-
-.navbar-header{
-	padding-left: 380px;
-}
-.navbar-brand a {
-	padding-left:0px;
-}
-
-#MenuNavbar{
-	
-}
-.nav-middle {
-padding-left: 0px;
-
+.blockcentral{
+	margin-top: 100px;
 }
 .img-container {
 	position: relative;
@@ -52,7 +40,7 @@ padding-left: 0px;
 	margin-top: 500px;
     width: 80%;
     height: 70px;
-    background-color: black;
+    background-image: url(img/restaureF3.jpg);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -63,17 +51,8 @@ padding-left: 0px;
 }
 .entre:hover a{
 	opacity:0.6;
-  	color:green;
+  	color:white;
   	text-decoration: none;
   	text-transform: uppercase;
 
 }
-
-/*
-.centrage {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}*/
-
-/*rgba(0,0,0,0.65);*/
