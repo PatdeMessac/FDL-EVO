@@ -1,5 +1,99 @@
+
+/* barre de navigation */
+
+.navbar-default,
+.navbar-default.scroll {
+  background-color: rgba(138, 129, 175, 0.7);
+/*background-image: url(img/restaureF3.jpg);*/
+opacity: 0.90;
+}
+
+.navbar-default .navbar-header .navbar-brand,
+.navbar-default .navbar-header .navbar-brand.scroll,
+.navbar-default .nav > li > a,
+.navbar-default .nav > li > a.scroll {
+  color: black;#FFF
+
+}
+
+.navbar-default .navbar-header .navbar-brand:hover,
+.navbar-default .navbar-header .navbar-brand:hover.scroll,
+.navbar-default .nav > li > a:hover,
+.navbar-default .nav > li > a:hover.scroll {
+  color: white;#333
+}
+
+.navbar-default,
+.navbar-default .navbar-header .navbar-brand,
+.navbar-default .nav > li > a:hover {
+  transition: all 0.50s;
+}
+
+.navbar-default {
+  padding: 15px 0;
+  border: none;
+  padding-bottom: 0;
+}
+
+.navbar-default.scroll {
+  padding: 0;
+}
+/*Fedala dans Navbar :*/
+.navbar-default .navbar-header .navbar-brand {
+  font-family: 'Great Vibes';
+  
+  font-size: 35px;
+  color : red;
+  letter-spacing: 2px;
+  line-height: 35px;
+padding-right: 45px;
+}
+
+
+.nav-middle {
+  /*float : left;*/
+opacity: 1;
+  /*padding: 0 0 0 25%;*/
+  text-shadow: 2px 2px 4px white;
+  font-size: 25px;
+}
+
+.navbar-right {
+  float: right;
+  margin-right: 0;
+  font-size: 10px;
+}
+
+.nav-right li a {
+font-size: 15px;
+  color : blue;
+}
+
+/*.navbar-default .navbar-header .navbar-brand.scroll {
+  font-size: 50px;
+}
+*/
+
+/*
+.navbar-default .nav li a {
+  font-size: 29px;
+  font-weight: 500;
+  
+  color : blue;
+  
+*/
+body{
+  width : 50%;
+}
+
+.container-fluid{
+  margin-top: 50px;
+  width : 100%;  
+}
+
 .space {
-  height: 80px;
+  height: 180px;
+  width : 100%;
 }
 
 .space-pink {
@@ -7,11 +101,10 @@
 }
 
 #onglets {
-  font : bold 19px "Lora";
+  font : bold 19px "Roboto";
   list-style-type : none;
-  margin-left : 0;
-  margin-bottom: 0;
-}
+  padding-left: 10%;
+  }
 
 #onglets > li {
   float : left;
@@ -20,7 +113,7 @@
   margin : 2px 15px 0 2px !important;
   border : 1px solid #9EA0A1;
   border-bottom-style: none;
-  width: 250px;
+  width: 450px;
 }
 
 #onglets > li > ul > li {
@@ -66,21 +159,22 @@
 background-color: #cc90ce;
 text-align: center;
 margin-left: -1px;
-width: 250px;
+width: 450px;
 border-radius: 0;
 }
 
-.content {
-  height: 200px;
-  padding: 100px 0;
+
+.container p{
+  width : 100%;
 }
 
 header {
-  height: 275px;
-  padding-bottom: 130px;
+  padding-top: 150px;
+  padding-bottom: 150px;
+  width: 100%;
+  
   display: flex;
-  justify-content: center;
-  align-items: center;
+  
   background-image: url(img/header-location.jpg);
   background-size: cover;
   background-position: center;
@@ -88,8 +182,8 @@ header {
 }
 
 .pic {
-  width: 250px;
-  height: 200px;
+  width: 550px;
+  height: 400px;
 }
 
 .flex {
