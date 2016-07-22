@@ -44,13 +44,13 @@ opacity: 0.90;
 	color : red;
 	letter-spacing: 2px;
 	line-height: 35px;
-padding-right: 45px;
+	padding-right: 45px;
 }
 
 
 .nav-middle {
 	/*float : left;*/
-opacity: 1;
+	opacity: 1;
 	/*padding: 0 0 0 25%;*/
 	text-shadow: 2px 2px 4px white;
 	font-size: 25px;

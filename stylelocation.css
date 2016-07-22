@@ -1,6 +1,3 @@
-body{
-  width : 100%;
-}
 
 /* barre de navigation */
 
@@ -35,6 +32,7 @@ opacity: 0.90;
 .navbar-default {
   padding: 15px 0;
   border: none;
+  padding-bottom: 0;
 }
 
 .navbar-default.scroll {
@@ -84,15 +82,18 @@ font-size: 15px;
   color : blue;
   
 */
+body{
+  width : 50%;
+}
 
 .container-fluid{
-  margin-top: 100px;
-  width : 350px;  
+  margin-top: 50px;
+  width : 100%;  
 }
 
 .space {
   height: 180px;
-  width : 250px;
+  width : 100%;
 }
 
 .space-pink {
@@ -100,11 +101,10 @@ font-size: 15px;
 }
 
 #onglets {
-  font : bold 19px "Lora";
+  font : bold 19px "Roboto";
   list-style-type : none;
-  margin-left : 0;
-  margin-bottom: 0;
-}
+  padding-left: 10%;
+  }
 
 #onglets > li {
   float : left;
@@ -113,7 +113,7 @@ font-size: 15px;
   margin : 2px 15px 0 2px !important;
   border : 1px solid #9EA0A1;
   border-bottom-style: none;
-  width: 250px;
+  width: 450px;
 }
 
 #onglets > li > ul > li {
@@ -159,26 +159,22 @@ font-size: 15px;
 background-color: #cc90ce;
 text-align: center;
 margin-left: -1px;
-width: 250px;
+width: 450px;
 border-radius: 0;
 }
 
-.content {
-  height: 200px;
-  padding: 100px 0;
+
+.container p{
+  width : 100%;
 }
-
-
-
-
 
 header {
   padding-top: 150px;
-  height: 275px;
-  padding-bottom: 130px;
+  padding-bottom: 150px;
+  width: 100%;
+  
   display: flex;
-  justify-content: center;
-  align-items: center;
+  
   background-image: url(img/header-location.jpg);
   background-size: cover;
   background-position: center;
@@ -186,8 +182,8 @@ header {
 }
 
 .pic {
-  width: 250px;
-  height: 200px;
+  width: 550px;
+  height: 400px;
 }
 
 .flex {
