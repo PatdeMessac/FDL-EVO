@@ -2,14 +2,17 @@
 
 .navbar-default,
 .navbar-default.scroll {
-	background-color: black;/*rgba(138, 129, 175, 0.7)*/
+	background-color: rgba(138, 129, 175, 0.7);
+/*background-image: url(img/restaureF3.jpg);*/
+opacity: 0.90;
 }
 
 .navbar-default .navbar-header .navbar-brand,
 .navbar-default .navbar-header .navbar-brand.scroll,
 .navbar-default .nav > li > a,
 .navbar-default .nav > li > a.scroll {
-	color: red;#FFF
+	color: black;#FFF
+
 }
 
 .navbar-default .navbar-header .navbar-brand:hover,
@@ -35,31 +38,45 @@
 }
 /*Fedala dans Navbar :*/
 .navbar-default .navbar-header .navbar-brand {
-	font-weight: 700;
-	font-size: 30px;
-
-	letter-spacing: 5px;
-	line-height: 35px;
-
-}
-
-.navbar-default .navbar-header .navbar-brand.scroll {
-	font-size: 25px;
-}
-
-.navbar-default .nav > li > a {
-	font-size: 19px;
-	font-weight: 500;
+	font-family: 'Great Vibes';
 	
-	color : cyan;
+	font-size: 35px;
+	color : red;
+	letter-spacing: 2px;
+	line-height: 35px;
+padding-right: 45px;
 }
+
 
 .nav-middle {
-	float : left;
-	padding: 0 0 0 25%;
+	/*float : left;*/
+opacity: 1;
+	/*padding: 0 0 0 25%;*/
+	text-shadow: 2px 2px 4px white;
+	font-size: 25px;
 }
 
 .navbar-right {
 	float: right;
 	margin-right: 0;
+	font-size: 10px;
 }
+
+.nav-right li a {
+font-size: 15px;
+	color : blue;
+}
+
+/*.navbar-default .navbar-header .navbar-brand.scroll {
+	font-size: 50px;
+}
+*/
+
+/*
+.navbar-default .nav li a {
+	font-size: 29px;
+	font-weight: 500;
+	
+	color : blue;
+	
+*/

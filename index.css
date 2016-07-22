@@ -3,13 +3,20 @@
   margin-top: 110px;
 }
 
+.block_1 a {
+  text-decoration: none;
+  color : black;
+}
+
+
 .entre {/*titre ... 3 images haut de page*/
-    width: 80%;
+    width: 60%;
     height: 70px;
-    /*background-image: url(img/img2.jpg);*/
-   background-color: orange; 
+    background-image: url(img/restaureF3.jpg);
+    /*background-color: orange;*/ 
     background-attachment: fixed;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
+    background-size: cover;
     opacity: 0.8;
     border-top-right-radius: 15px;
     border-bottom-left-radius: 15px;
@@ -21,6 +28,25 @@
     font-style: italic;
     text-shadow : 2px 2px 2px white;
     color : black;
+}
+
+.entre a:hover{
+  cursor : s-resize;
+  color: white;
+  text-shadow: 2px 2px 2px black;
+}
+
+p {/*paragraphes sous 3-photos et sous services*/
+  font-family: "Roboto";
+  font-size: 25px;
+  color: black;
+  font-style: italic;
+  background-color: #FFF5E1;orange;#A47CFE;
+  background-image: url(img/restaureF3.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity : 0.7;
 }
 
 .bg-default {
@@ -35,22 +61,27 @@
 /*arrière plan section Nos services*/
 .bg-primary {  
   padding: 150px 0;
-background-image: url(img/carous2.jpg);
   
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: center;
  /*background-color: #CFB741;*/ /*autour image arr plan*/
 opacity : 0.9;
-  background-image: url(img/contact-bg.jpg); 
+  /*background-image: url(img/header4.jpg);*/
+background-image: url(img/footer.jpg);  
+  background-repeat: no-repeat; 
+  background-size: cover; 
 }
+
 .bg-primary p{/*paragraphe description "Fedala Deco traiteur" Plus parag "Nos Services"*/
   margin-top: 50px;
   font-family: 'Roboto';
   color :black;
-  background-color: orange;
+  background-color: #FFF5E1;orange;
+  background-image: url(img/restaureF3.jpg);
 border-top-right-radius: 15px;
 border-bottom-left-radius: 15px;
+padding : 25px;
 }
 
 
@@ -62,84 +93,86 @@ border-bottom-left-radius: 15px;
 
 }
 
+.mid-text {
+  width : 700px;
+
+}
+
 .mid-text h1 {/*"Fedala Deco Traiteur" position centrale*/
-  padding: 0 0 10px 0;
+  padding: 15px 0 10px 0;
   font-size: 60px;
 font-family: 'Great Vibes';
 color : black;
 text-shadow : 2px 2px 2px white;
-background-color: orange;
-
-
-background-image: url(img/carous.jpg);
+/*background-color: #FFF5E1;orange;*/
+background-image: url(img/restaureF3.jpg);
 background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-position: center;
-
-
+  background-repeat: repeat;
+  background-position: cover;
 opacity: 0.8;
 border-top-right-radius: 25px;
 border-bottom-left-radius: 25px;
 }
 
-.mid-text {
-  width : 500px;
-   
+.mid-text p {
+  background-color: #FFF5E1;#C9A500;orange;
+  background-image: url(img/restaureF3.jpg);
+background-attachment: fixed;
+  background-repeat: repeat;
+  background-position: cover;
+opacity: 0.8;
+  opacity: 0.8;
+  padding : 10px;
+  font-size: 15px;
 }
 
-/*text : "Cliquez sur une image ..."*/
+h3 {/*titre "Nos Services"*/
+  font-size: 60px;
+  font-weight: 450;
+font-family: 'Great Vibes';
+color : black;
+  /*font-style: italic;*/
+  text-shadow: 2px 2px 4px grey;
+  padding: 15px 0 0 0 ;
+background-image: url(img/restaureF3.jpg);
+background-attachment: relative;
+  background-repeat: repeat;
+  background-position: cover;
+  opacity: 0.8;
+
+}
+
+/*text : "l'essentiel pour un evenement"*/
 .bg-primary h2 {
-  padding: 30px 0 15px 0;
-  font-weight: 700;
+  padding: 10px;
+  text-align: center;
+  font-weight: 550;
   font-family: 'Great Vibes', cursive;
   color : black;
- background-image: url(img/accueil4.jpg);
-  opacity : 0.7;
+  /*background-color: #FFF5E1;orange;*/
+  background-image: url(img/restaureF3.jpg);
+  background-attachment: relative;
+  background-repeat: repeat;
+  background-position: cover;
+  opacity: 0.8;
   font-size: 28px;
   border-top-right-radius: 25px;
   border-bottom-left-radius: 25px;
 }
 
-h2 {/*?*/
-  padding: 0 0 30px 0;
- 
-}
 
-h3 {/*titre "Nos Services"*/
-  font-size: 60px;
-  font-weight: 500;
-  width: 450px;
-  margin-left: 50px;
-font-family: 'Great Vibes';
-color : black;
-  /*font-style: italic;*/
-  text-shadow: 2px 2px 4px white;
-}
+
 
 .well-h3 {/*div "Nos Services"*/
  
-  background-image: url(img/accueil4.jpg);
-  background-attachment: fixed;
-  /*background-color: orange;#A47CFE;*/
-  opacity : 0.9;
-  padding: 15px 0;
+/*  background-image: url(img/contact-bg.jpg);*/
+  
+  
   text-align: center;
   border-top-right-radius: 15px;
 border-bottom-left-radius: 15px;
 }
 
-p {/*paragraphes sous 3-photos et sous services*/
-  font-family: "Roboto";
-  font-size: 25px;
-  color: black;
-  font-style: italic;
-  /*background-color: orange;#A47CFE;*/
-  background-image: url(img/accueil4.jpg);
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-size: cover;
-  opacity : 0.7;
-}
 
 .bg-default h1 {/*?*/
   color : red;
@@ -158,6 +191,7 @@ p {/*paragraphes sous 3-photos et sous services*/
 .about p {
 border-top-right-radius: 15px;  
 }
+
 .pic {
 
   width: 250px;
@@ -174,8 +208,9 @@ border-top-right-radius: 15px;
   height: 445px;
   padding-right: 15px;
   padding-top: 15px;
- /*background-color: orange;#A47CFE;*/
- background-image:url(img/header1.jpg);
+ background-color: #FFF5E1;#C9A500;orange;#A47CFE;
+ opacity: 0.9;
+background-image:url(img/restaureF3.jpg);
 background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: center;
@@ -267,7 +302,7 @@ background-size: cover;
 }
 
 .img-left-background {
-  background-image: url(img/header-location.jpg);
+  background-image: url(img/carous.jpg);
 }
 
 .img-center-background {
@@ -275,7 +310,7 @@ background-size: cover;
 }
 
 .img-right-background {
-  background-image: url(img/contact-bg.jpg);
+  background-image: url(img/header-location.jpg);
 }
 
 .img-foreground {
