@@ -31,6 +31,10 @@ opacity: 0.90;
 .navbar-default {
 	padding: 15px 0;
 	border: none;
+
+}
+.navbar-fixed-top{
+	padding-bottom : 20px;
 }
 
 .navbar-default.scroll {
