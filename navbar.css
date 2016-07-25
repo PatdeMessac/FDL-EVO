@@ -1,4 +1,10 @@
 /* barre de navigation */
+@font-face {
+    font-family: 'Arizonia-Regular'; /* nom que vous utiliserez pour utiliser la police */
+    src: url('/home/pcapprenant16/Documents/FDL-EVO/arizonia/Arizonia-Regular.ttf');
+}
+
+
 
 .navbar-default,
 .navbar-default.scroll {
@@ -19,7 +25,8 @@ opacity: 0.90;
 .navbar-default .navbar-header .navbar-brand:hover.scroll,
 .navbar-default .nav > li > a:hover,
 .navbar-default .nav > li > a:hover.scroll {
-	color: white;#333
+	color: white;
+	text-shadow: 4px 4px 2px black;
 }
 
 .navbar-default,
@@ -29,7 +36,7 @@ opacity: 0.90;
 }
 
 .navbar-default {
-	padding: 15px 0;
+	padding: 0;
 	border: none;
 
 }
@@ -40,21 +47,20 @@ opacity: 0.90;
 .navbar-default.scroll {
 	padding: 0;
 }
+
+
 /*Fedala dans Navbar :*/
-
-
-
 .navbar-default .navbar-header .navbar-brand {
-	font-family: 'Great Vibes';
-	font-size: 45px;
+	font-family: 'Arizonia-Regular';
+	font-size: 55px;
 	color : red;
-	letter-spacing: 2px;
-	line-height: 35px;
-	padding-right: 45px;
+	letter-spacing: 0px;
+	line-height: 55px;
+	padding-right: 65px;
 }
 
 .navbar-nav nav-middle ul{
-	font-family"Philosopher",sans-serif;
+	font-family : "Philosopher",sans-serif;
 }
 .nav-middle {
 	/*float : left;*/
@@ -63,7 +69,7 @@ opacity: 0.90;
 	text-shadow: 2px 2px 4px white;
 	font-size: 25px;
 	padding-top: 20px;
-	font-family"Philosopher",sans-serif;
+	font-family : "Philosopher",sans-serif;
 
 }
 
@@ -72,13 +78,13 @@ opacity: 0.90;
 	margin-right: 0;
 	font-size: 20px;
 	padding-top: 20px;
-	font-family"Philosopher",sans-serif;
+	font-family : "Philosopher",sans-serif;
 }
 
 .nav-right li a {
 	font-size: 20px;
 	color : blue;
-	font-family"Philosopher",sans-serif;
+	font-family : "Philosopher",sans-serif;
 }
 
 /*.navbar-default .navbar-header .navbar-brand.scroll {
