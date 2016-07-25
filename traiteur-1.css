@@ -22,7 +22,8 @@
 }
 
 .img-center-background {
-	background-image: url(img/carous5.jpg);
+	background-image: url(img/FB1.jpg);
+	background-position: center;
 }
 
 .img-right-background {
@@ -36,23 +37,24 @@
 	justify-content: center;
 }
 
-.entre {
-	margin-top: 500px;
+.entre {/*titre ... 3 images haut de page*/
+    margin: 0;
     width: 80%;
     height: 70px;
-    background-image: url(img/restaureF3.jpg);
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 30px;
-    font-family: 'Philosopher', sans-serif;
-    border-top-right-radius: 50px;
-	border-bottom-left-radius : 50px;
+    font-size: 35px;
+    font-family: 'Philosopher';
+    font-style: italic;
+    text-shadow : 2px 2px 2px white;
+    color : black;
 }
-.entre:hover a{
-	opacity:0.6;
-  	color:white;
-  	text-decoration: none;
-  	text-transform: uppercase;
 
+.entre a:hover{
+  cursor : pointer;
+  color: orange;
+  text-shadow: 5px 5px 2px black;
 }
